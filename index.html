@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetraProject</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetraProject</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="brand">
-            <div class ="brand logo">N</div>
-        
-        <h1>NETRA</h1>
-        <p>Welcome to the NETRA project!</p>
-        <h2> Netra Project</h2>
-        </div>
+  <header>
+    <div class="brand">
+      <div class="brand-logo">N</div>
+      <h1>NETRA</h1>
+      <p>Welcome to the NETRA project!</p>
+      <h2>Netra Project</h2>
     </div>
-        
-        <!--Navigation section---->
-        <nav>
-            <ul>
-                <li><a href="#dashboard">Dashboard</a></li>
-                <li><a href="#fleet">FLEET</a></li>
-                <li><a href="#alerts">ALERTS</a></li>
-                <li><a href="#telemetry">TELEMETRY</a></li>
-            </ul>
-        </nav>
-        <!--status+clock--->
-        <div class="header-right">
-              <span id="online-dot"></span>
-          <span>SYSTEM ONLINE</span>
-          <strong id="clock">--:--:--</strong>
-          </div>
-          <!--Dispatch section--->
-          <button class="dispatch-open" type="button">+Dispatch mission</button>
-          </header>
-    <main>
-        <p>Welcome to netra project!</p>
-        <h2>Time</h2>
-        <p id="current _time">Loading....</p>
 
-    </main>
-     <footer>
-        <p>&copy; 2026 Netra Project. All rigths reserved.</p>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#overview">OVERVIEW</a></li>
+        <li><a href="#fleet">FLEET</a></li>
+        <li><a href="#alerts">ALERTS</a></li>
+        <li><a href="#telemetry">TELEMETRY</a></li>
+      </ul>
+    </nav>
 
-     </footer>
-     <script src ="script"></script>
+    <!-- Status + clock -->
+    <div class="header-right">
+      <span id="online-dot"></span>
+      <span>SYSTEM ONLINE</span>
+      <strong id="clock">--:--:--</strong>
+    </div>
 
-
-
-</body>
-</html>
+    <!-- Dispatch section -->
+    <button class="dispatch-open" type="button">+Dispatch mission</button>
+  </header>

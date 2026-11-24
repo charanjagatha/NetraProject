@@ -1,24 +1,25 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior:smooth;
 
+html {
+  scroll-behavior: smooth;
 }
-body{
-  background:black;
-  color:rgb(188, 237, 232);
-  font-family:Arial,sans-serif;
-  min-width: 100vh;
-}
-button{
-    background:darkblue;
-    color:thistle;
-    padding:12px 20px;
-    border-radius:8px;
-    cursor: pointer;
-    font-weight:bold;
 
+body {
+  background: black;
+  color: rgb(188, 237, 232);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+button {
+  background: darkblue;
+  color: thistle;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
 }
