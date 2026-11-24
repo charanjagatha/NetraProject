@@ -1,14 +1,24 @@
-h2{
-    text-align:center;
-    color:aquamarine;
-    font-size:30px;
-    font-family:Arial, Helvetica, sans-serif;
-    border: 5px purple solid;
-    border - radius: 10px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior:smooth;
 
-    }
-    p{
-        text-align: center;
-        color:bisque;
-        font -size:20px;
-    }
+}
+body{
+  background:black;
+  color:rgb(188, 237, 232);
+  font-family:Arial,sans-serif;
+  min-width: 100vh;
+}
+button{
+    background:darkblue;
+    color:thistle;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor: pointer;
+    font-weight:bold;
+
+}
